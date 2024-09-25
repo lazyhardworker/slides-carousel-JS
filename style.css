@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+#sec1{
+    background: black;
+    height: 500px;
+    width: 500px;
+}
+#sec2{
+    background: green;
+    height: 500px;
+    width: 500px;
+}
+#sec3{
+    background: pink;
+    height: 500px;
+    width: 500px;
+}
+#sec4{
+    background: orange;
+    height: 500px;
+    width: 500px;
+}
+.sec{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    flex: 0.8;
+    position: relative;
+    transition: all 0.7s ease-out;
+}
+.sec{
+    flex: 0;
+}
+.sec.active{
+    flex: 7;
+}
+button:hover{
+    background-color: gray;
+}
